@@ -81,35 +81,36 @@ playwright install chromium
 ```
 
 ## 🚀 Usage
-**Basic Command Line Usage**
+# Basic Command Line Usage
 
-# Scrape 20 restaurants in New York
+**Scrape 20 restaurants in New York**
 ```bash
 python app.py -s "restaurants in New York" -t 20 -o "nyc_restaurants.csv"
 ```
 
-# Scrape 50 coffee shops in London
+**Scrape 50 coffee shops in London**
 ```bash
 python app.py -s "coffee shops London" -t 50 -o "london_coffee.csv"
 ```
 
-# Scrape 30 hotels in Tokyo
+**Scrape 30 hotels in Tokyo**
 ```bash
 python app.py -s "hotels Tokyo Japan" -t 30 -o "tokyo_hotels.csv"
 ```
 
-**Advanced Usage Examples**
-# Scrape specific business types
+# Advanced Usage Examples
+
+**Scrape specific business types**
 ```bash
 python app.py -s "digital marketing agencies San Francisco" -t 25 -o "agencies.csv"
 ```
 
-# Extract local service providers
+**Extract local service providers**
 ```bash
 python app.py -s "plumbers near me" -t 15 -o "local_plumbers.csv"
 ```
 
-# Research competitors in area
+**Research competitors in area**
 ```bash
 python app.py -s "coffee shops near Manhattan" -t 40 -o "competitor_analysis.csv"
 ```
@@ -123,6 +124,7 @@ python app.py -s "coffee shops near Manhattan" -t 40 -o "competitor_analysis.csv
 | `-o, --output` | Output CSV file path | `"all_business.csv"` | No |
 
 **Python Script Integration**
+```bash
 from app import scrape_businesses_with_scrolling, save_to_csv_append
 
 # Scrape businesses programmatically
@@ -135,7 +137,7 @@ businesses = scrape_businesses_with_scrolling(
 save_to_csv_append(businesses, "restaurant_data.csv")
 
 print(f"Successfully extracted {len(businesses)} businesses")
-
+```
 📊 Output Data Structure
 The scraper generates CSV files with comprehensive business information:
 
@@ -156,7 +158,7 @@ The scraper generates CSV files with comprehensive business information:
 | `rank` | Search result position | 3 |
 | `description` | Business description | "Coffee shop chain known for..." |
 
-**🛠️ Technical Architecture**
+# 🛠️ Technical Architecture
 
 **Core Components**
 
@@ -168,7 +170,8 @@ The scraper generates CSV files with comprehensive business information:
 
 **Argparse:** Robust command-line interface implementation
 
-**Data Extraction Methodology**
+# Data Extraction Methodology
+
 XPath-based element selection and traversal
 
 Intelligent scrolling for pagination handling
@@ -179,7 +182,7 @@ Smart duplicate business detection
 
 Efficient review excerpt processing
 
-**🤝 Contributing**
+# 🤝 Contributing
 
 We welcome contributions from the community! Please feel free to submit pull requests, report bugs, or suggest new features.
 
@@ -193,33 +196,37 @@ Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-**Development Setup**
+# Development Setup
 
-# Install development dependencies
-
+**Install development dependencies**
+```bash
 pip install -r requirements.txt
 
 pip install black flake8 pytest
+```
 
-# Run code formatting
-
+**Run code formatting**
+```bash
 black app.py
+```
 
-# Run linting
-
+**Run linting**
+```bash
 flake8 app.py
+```
 
-**📝 License**
+# 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-**
-☕ Support the Project**
+
+# ☕ Support the Project
+
 If you find this tool helpful for your educational or research projects, consider supporting its development:
 
-**Buy Me a Coffee:** [https://buymeacoffee.com/prasanthanalyst](https://buymeacoffee.com/prasanththeanalyst)
+**Buy Me a Coffee:** [https://buymeacoffee.com/prasanththeanalyst](https://buymeacoffee.com/prasanththeanalyst)
 
-**Your support helps:**
+# Your support helps:
 
 🐛 Fix bugs and maintain the tool
 
@@ -245,9 +252,9 @@ If you find this tool helpful for your educational or research projects, conside
 
 🛡️ Respect website policies and rate limits
 
-**🆘 Troubleshooting**
+# 🆘 Troubleshooting
 
-**Common Issues & Solutions**
+# Common Issues & Solutions
 
 **"Chrome not found" error**
 
@@ -268,10 +275,11 @@ Increase timeout values in the code if needed
 **Playwright installation issues**
 
 # Reinstall Playwright if needed
-
+```bash
 pip uninstall playwright
 
 pip install playwright
+```
 
 playwright install chromium
 
@@ -291,7 +299,7 @@ Run during off-peak hours
 
 🐛 Report bugs with detailed error messages and system information
 
-🔄 Changelog
+# 🔄 Changelog
 
 Version 1.0
 
@@ -305,7 +313,7 @@ CSV export capabilities
 
 <div align="center">
     
-**Developed by Prasanth The Analyst**
+# Developed by Prasanth The Analyst
 
 Creating tools for educational and research purposes
 
@@ -314,5 +322,6 @@ Remember: Always use web scraping responsibly and ethically
 https://img.shields.io/github/followers/PrasanthTheAnalyst?style=social
 
 </div> ```
+
 
 
