@@ -13,7 +13,7 @@
 
 A powerful automated tool to extract comprehensive business information from Google Maps
 
-[Installation](#installation) • [Usage](#usage) • [Features](#-features) • [Disclaimer](#-important-disclaimer)
+[Installation](#-installation) • [Usage](#-usage) • [Features](#-features) • [Disclaimer](#-important-disclaimer)
 
 </div>
 
@@ -314,3 +314,4 @@ Remember: Always use web scraping responsibly and ethically
 https://img.shields.io/github/followers/PrasanthTheAnalyst?style=social
 
 </div> ```
+
