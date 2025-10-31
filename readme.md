@@ -56,8 +56,8 @@ Step-by-Step Setup
 Clone the repository
 
 bash
-git clone https://github.com/PrasanthTheAnalyst/google-maps-scraper.git
-cd google-maps-scraper
+git clone https://github.com/PrasanthTheAnalyst/google-maps-scrapper.git
+cd google-maps-scrapper
 Create virtual environment (recommended)
 
 bash
