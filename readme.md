@@ -80,7 +80,7 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-🚀 Usage
+## 🚀 Usage
 **Basic Command Line Usage**
 
 # Scrape 20 restaurants in New York
@@ -314,4 +314,5 @@ Remember: Always use web scraping responsibly and ethically
 https://img.shields.io/github/followers/PrasanthTheAnalyst?style=social
 
 </div> ```
+
 
